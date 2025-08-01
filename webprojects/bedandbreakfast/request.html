@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Lucas Salmons 07/07/2025 Bed-->
+    <link rel="stylesheet" href="mystyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bed and Breakfast</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="rooms.html">Rooms Offered</a></li>
+            <li><a href="request.html">Request Info Form</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1 style="font-size:5vw;">Sunset B&B</h1>
+        <p>Springfield MO</p>
+    </header>
+    <form method="GET" action="thankyou.html">
+        <p>
+            <label for="first">First Name:</label>
+            <input type="text" name="first" id="first">
+        </p>
+        <p>
+            <label for="last">Last Name:</label>
+            <input type="text" name="last" id="last">
+        </p>
+        <p>
+            <label for="item1">Free Wifi:</label>
+            <input type="checkbox" name="item1" id="item1">
+        </p>
+        <p>
+            <label for="item2">Free Room Service:</label>
+            <input type="checkbox" name="item2" id="item2">
+        </p>
+        <p>
+            <label for="item3">Unlimited Drinks:</label>
+            <input type="checkbox" name="item3" id="item3">
+        </p>
+        <p>Select your preferred stay times:</p>
+
+        <div>
+            <input type="radio" name="week_value" value="weekdays" id="day">
+            <label for="day">Weekdays</label>
+        </div>
+        <div>
+            <input type="radio" name="week_value" value="weekends" id="end">
+            <label for="end">Weekends</label>
+        </div>
+        <div>
+            <input type="radio" name="week_value" value="flexible" id="flex">
+            <label for="flex">Flexible</label>
+        </div>
+        <p>
+            <i class="fa-solid fa-comment"></i>
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" placeholder="Additional comments or concerns..." rows="7" cols="50"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+    </form>
+</body>
+</html>

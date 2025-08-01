@@ -1,0 +1,125 @@
+/*Brand Color*/
+
+.brand-bg-color {
+    color:rgb(121, 195, 237)
+}
+.brand-color {
+    color: rgb(7, 90, 138)
+}
+.font {
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*section Styles*/
+
+/*Aligns text left, creates a border around section with solid outline colored darkcyan, adds light cyan background color, floats content to the left, adds padding to the left, right and bottom of content*/
+.section1 {
+    text-align: left;
+    border: 5px solid darkcyan;
+    background-color: lightcyan;
+    float: left;
+    padding: 0px 25px 25px;
+}
+
+/*same as previous with different colors*/
+.section2 {
+    text-align: left;
+    border: 5px solid rgb(7, 90, 138);
+    background-color: rgb(121, 195, 237);
+    float:left;
+    padding: 0px 25px 25px;
+}
+
+
+/*Product Section Styles*/
+
+/*Aligns text left, creates a border around section with solid outline colored darkcyan, adds light cyan background color, floats content to the left, adds padding to the left, right and bottom of content*/
+.product1 {
+    text-align: left;
+    border: 5px solid darkcyan;
+    background-color: lightcyan;
+    float: left;
+    padding: 0px 25px 25px;
+}
+
+/*same as previous with different colors*/
+.product2 {
+    text-align: left;
+    border: 5px solid rgb(7, 90, 138);
+    background-color: rgb(121, 195, 237);
+    float:right;
+    padding: 0px 25px 25px;
+}
+
+/*Image Styles*/
+
+/*floats image to the right allowing text to wrap to the left*/
+.wave { 
+    float:right;
+}
+/*floats image to the left allowing text to wrap to the right*/
+.man {
+    float: left;
+}
+
+/*Navigation Styles*/
+
+/*removes list style(bullets), removes margin and padding, prevents overflow into each list element, changes background color of everything in ul, adds a border around the ul*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightcyan;
+  border: 5px solid darkcyan;
+}
+/*floats the list elements left*/
+li {
+  float: left;
+}
+
+/*changes the type of display for the text element into a block type, set text color to black, aligns text to center alignment, removes text deco like underline*/ 
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+/*Change the link color to brand bg color and adds a side border on hover */
+li a:hover {
+  background-color: rgb(121, 195, 237);
+  border-left: 5px solid rgb(7, 90, 138);
+}
+
+/*Link Styles*/
+
+/*changes the color of the link*/
+a:link {
+    color:blue
+}
+/*changes the color of visited links*/
+a:visited {
+    color:purple;
+}
+/*changes the color of links being hovered over*/
+a:hover {
+    color:red
+}
+/*changes the color of links being focused on*/
+a:focus {
+    color:purple;
+}
+/*changes te color of active links*/
+a:active {
+    color:orange;
+}
+
+/*Footer Styles*/
+
+/*centers text for footer*/
+footer {
+    text-align: Center;
+}
